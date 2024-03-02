@@ -1,0 +1,9 @@
+public class NumberSettingRightMostUnsetBIt {
+    public static int setBits(int N){
+        // Write your code here.
+        if((N&(N+1))==0){
+            return  N;
+        }
+        return  N|(N+1);
+    }
+}
